@@ -21,7 +21,7 @@ Steps to run this test framework:
 
 4. **Clone this project**
 
-   https://github.com/frankliuyj/RestAssuredTestNG.git
+https://github.com/narasimhavuppala/bdd-rest-assured-demos.git
 
 5. **Enter into root folder "RestAssuredDemo" (with pom.xml and testng.xml in it) then run following command**:
 
