@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="com.frank.RestAssuredGithubDemo.GitHubDemoTest">
+    	<methods>
+    		<include name="getUser" />
+			<include name="getUserRepo" />
+			<include name="postRepo" />
+			<include name="patchRepo" />
+			<include name="putTopic" />
+			<include name="deleteRepo" />
+		</methods>
+      </class>
+      <class name="com.frank.RestAssuredGoogleDemo.GoogleDemoTest" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
